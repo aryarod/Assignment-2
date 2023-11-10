@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <title>Exercise #2</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+</head>
+
+<body>
+  <h1>NMED 3520: Exercise 2</h1>
+  <h3>Arya Rod</h3>
+
+  <section id="new-css-feature" class="section-settings">
+    <h2>1. Recent CSS Feature: New viewport Units</h2>
+    <p>
+      It is very important to take into account the size of the display when
+      developign a web page. The <em><b>Viewport</b></em> units enable the developer
+      to ensure that the web page takes into account the size of the client's display
+      as well as an existing toolbar.
+    </p>
+    <a href="https://positivethinking.tech/insights/the-10-new-css-features-in-2023/"><img
+        src="images/Viewport-units-new.png" alt="New Viewport Units" class="center"></a>
+
+    <ul>
+      <li><b><u>BLUE Arrow:</u></b> Indicates the <b>height</b> of the page. Does not take into account the toolbar</li>
+      <li><b><u>RED Arrow:</u></b> Indicates the <b>height</b> visible on the screen due to the toolbar also taking up
+        space</li>
+    </ul>
+
+    <p>
+      This issue can be dealt with using the <em>new</em> <i>Viewport Units</i> listed below:
+    </p>
+    <ul>
+      <li><b><u>Small viewport (svh/svw) :</u></b> takes the address bar and the toolbar into consideration.</li>
+      <li><b><u>Large viewport (lvh/lvw) :</u></b> doesn't take the address bar and the toolbar into consideration.</li>
+      <li><b><u>Dynamic viewport (dvh/dvw) :</u></b> adapts its value when the toolbars are visible or/and when they are
+        not.</li>
+    </ul>
+
+    <em>*Important note: These units <b>do not</b> take into account the scroll bar. Therefore the used
+      is situational and another method may be more suitable depending on the circumstances.</em>
+  </section>
+
+  <section id="favorite-css-feature" class="section-settings">
+    <h2>2. My Favorite CSS Feature: Implementing 3D Interactive Models</h2>
+    <p>
+      CSS gives the flexibility to add interactive content and images that provide the user
+      with interactive controls via keyboard, or by dragging using the mouse. The model below is
+      an example powered by <a href="https://modelviewer.dev/"><code>model-viewer</code></a>. Ability
+      to use these models would offer a better user experience and endless opportunities for
+      creating interactive content.
+    </p>
+
+    <model-viewer alt="Car" src="images/McLaren.glb" camera-controls></model-viewer>
+
+    <em>*"Mc Laren" (https://skfb.ly/6RDNn) by Kingman257 is licensed under Creative Commons Attribution
+      (http://creativecommons.org/licenses/by/4.0/). </em>
+
+  </section>
+
+  <section id="ai-impact" class="section-settings">
+    <h2>3. How AI is impacting the Web Design & Development</h2>
+    <p>
+      The automation and suggestions provided by AI can definitely be an asset when
+      it comes to web design and development. The use of AI is overall positive, as it provides
+      suggestions and is capable of recognizing patterns and analyzing on its own to provide
+      results within seconds. It is however, very important not to rely on AI and always check due to the possibility
+      of mistakes. AI can be prone to mistakes and should be used as a tool to help but not
+      be relied on to get the entire work complete.
+    </p>
+  </section>
+</body>
+
+</html>
