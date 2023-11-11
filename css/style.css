@@ -51,7 +51,7 @@ main {
   align-items: center;
 }
 
-.video {
+.media {
   grid-column: 1;
 }
 
@@ -163,7 +163,7 @@ p {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
 }
 
-.iframe {
+.video {
   width: 640px;
   height: 360px;
 }
@@ -172,7 +172,7 @@ p {
 
 @media screen and (max-width: 700px) {
 
-  .video {
+  .media {
     width: 100vw;
   }
 
