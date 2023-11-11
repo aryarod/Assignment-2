@@ -53,8 +53,6 @@ main {
 
 .video {
   grid-column: 1;
-  width: 640px;
-  height: 360px;
 }
 
 .video-description {
