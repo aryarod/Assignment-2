@@ -172,12 +172,10 @@ p {
     font-size: 20px;
   }
 
-  /*
   .iframe {
     width: 50%;
     height: 50%;
   }
-*/
 
   .main-section {
     grid-template-columns: 1fr;
@@ -188,7 +186,7 @@ p {
   .main-section>div:first-child {
     max-width: 500px;
     grid-row: 1;
-    margin-top: 80px;
+    margin-top: 40px;
   }
 
   .main-section>div:nth-child(2) {
