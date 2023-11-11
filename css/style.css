@@ -169,7 +169,7 @@ p {
 @media screen and (max-width: 700px) {
 
   .video {
-    max-width: 500px;
+    padding: 20px;
   }
 
   h1 {
