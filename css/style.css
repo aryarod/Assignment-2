@@ -168,6 +168,14 @@ p {
 
 @media screen and (max-width: 700px) {
 
+  .pg-padding {
+    grid-row: 1;
+  }
+
+  .navigation-bar {
+    grid-row: 2;
+  }
+
   h1 {
     font-size: 20px;
   }
