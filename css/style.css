@@ -184,7 +184,6 @@ p {
   }
 
   .main-section>div:first-child {
-    max-width: 500px;
     grid-row: 1;
     margin-top: 40px;
   }
