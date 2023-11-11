@@ -165,7 +165,7 @@ p {
 
 
 /* Responsive Parameters*/
-
+/*
 @media screen and (max-width: 700px) {
 
   h1 {
@@ -178,7 +178,7 @@ p {
 
   }
 
-  /*
+  
   .main-section>div:nth-child(1) {
     grid-column: 1;
     grid-row: 2;
@@ -188,5 +188,6 @@ p {
   .main-section>div:nth-child(2) {
     grid-column: 1;
     text-align: center;
-  }*/
+  }
 }
+***/
