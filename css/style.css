@@ -193,7 +193,7 @@ p {
   }
 
   .video iframe,
-  .videos object,
+  .video object,
   .video embed {
     grid-template-columns: 1fr;
     top: 0;
@@ -201,6 +201,12 @@ p {
     width: 50vw;
     height: 50vw;
     position: absolute;
+  }
+
+  section {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: 10px;
   }
 
   .main-section {
