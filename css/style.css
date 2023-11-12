@@ -200,13 +200,15 @@ p {
     left: 0;
     width: 50vw;
     height: 50vw;
-    position: absolute;
+    position: center;
   }
 
   section {
     margin-top: 10px;
     margin-right: auto;
     margin-left: 10px;
+    padding: 10px 10px;
+    border-top-right-radius: 0px;
   }
 
   .main-section {
