@@ -196,18 +196,6 @@ p {
     color: black;
   }
 
-  /*
-  .video iframe,
-  .video object,
-  .video embed {
-    grid-template-columns: 1fr;
-    top: 0;
-    left: 0;
-    width: 50vw;
-    height: 50vw;
-    position: center;
-  }*/
-
   section {
     grid-template-columns: 1fr;
     background-color: transparent;
@@ -220,15 +208,8 @@ p {
 
   .media {
     grid-template-columns: 1fr;
-    padding: 10px 10px;
-    text-align: center;
     position: center;
     grid-gap: 0;
-  }
-
-  .video {
-    position: center;
-    text-align: center;
   }
 
   .main-section {
@@ -244,9 +225,7 @@ p {
     grid-row: 1;
     margin-right: 0;
     margin-left: 0;
-    position: center;
     text-align: center;
-    justify-content: center;
   }
 
   .main-section>div:nth-child(2) {
