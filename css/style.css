@@ -214,6 +214,13 @@ p {
     border-top-right-radius: 0px;
   }
 
+  media {
+    grid-template-columns: 1fr;
+    padding: 10px 10px;
+    text-align: center;
+    grid-gap: 0;
+  }
+
   .main-section {
     max-width: 100%;
     grid-template-columns: 1fr;
