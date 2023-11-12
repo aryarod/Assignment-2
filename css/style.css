@@ -187,6 +187,7 @@ p {
   }
 
   .main-section {
+    max-width: 100%;
     grid-template-columns: 1fr;
     padding: 10px 10px;
     text-align: center;
@@ -194,14 +195,12 @@ p {
   }
 
   .main-section>div:first-child {
-    padding: 10px 10px;
     max-width: 100vw;
     grid-row: 1;
     margin-top: 40px;
   }
 
   .main-section>div:nth-child(2) {
-    padding: 10 10;
     grid-column: 1;
     grid-row: 2;
     text-align: center;
