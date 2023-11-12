@@ -222,6 +222,11 @@ p {
     grid-gap: 0;
   }
 
+  .video {
+    position: center;
+    text-align: center;
+  }
+
   .main-section {
     max-width: 100%;
     grid-template-columns: 1fr;
