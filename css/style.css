@@ -186,6 +186,16 @@ p {
     font-size: 20px;
   }
 
+  .video iframe,
+  .videos object,
+  .video embed {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
   .main-section {
     max-width: 100%;
     grid-template-columns: 1fr;
