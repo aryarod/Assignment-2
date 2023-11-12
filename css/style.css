@@ -242,10 +242,11 @@ p {
   .main-section>div:first-child {
     max-width: 50vw;
     grid-row: 1;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 0;
+    margin-left: 0;
     position: center;
     text-align: center;
+    justify-content: center;
   }
 
   .main-section>div:nth-child(2) {
