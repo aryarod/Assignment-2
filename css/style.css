@@ -189,6 +189,7 @@ p {
   .video iframe,
   .videos object,
   .video embed {
+    grid-template-columns: 1fr;
     top: 0;
     left: 0;
     width: 100%;
