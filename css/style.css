@@ -192,6 +192,7 @@ p {
     font-size: 15px;
   }
 
+  /*
   .video iframe,
   .video object,
   .video embed {
@@ -201,7 +202,7 @@ p {
     width: 50vw;
     height: 50vw;
     position: center;
-  }
+  }*/
 
   section {
     margin-top: 10px;
